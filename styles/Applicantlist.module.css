@@ -1,0 +1,42 @@
+.html {
+  font: 0.75em/1.5 sans-serif;
+  color: #333;
+  background-color: #fff;
+  padding-left: 1em;
+  padding-right: 1em;
+  /* margin: 0; */
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 20px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 0.3em;
+  border-collapse: collapse;
+}
+.th {
+  font-weight: bold;
+  background-color: #ddd;
+  max-width: 0.1px;
+}
+.th,
+.td {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  max-width: 1px;
+}
+
+/* Ipad */
+@media only screen and (max-width: 810px) {
+  .table {
+    font-size: 15px;
+  }
+}
+
+/* Mobile phone */
+@media only screen and (max-width: 500px) {
+  .table {
+    font-size: 8px;
+  }
+}
